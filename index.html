@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>covid 19 estimator</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="Description" content="covid 19 estimator.">
+	<link rel="shortcut icon" href="https://kamgueblondin.github.io/my-covid-19-estimator-frontend/images/icons/favicon.ico" type="image/vnd.microsoft.icon" />
+	<meta property="og:type" content="article" />
+	<meta property="og:url" content="https://kamgueblondin.github.io/my-covid-19-estimator-frontend/index.html" />
+	<meta property="og:title" content="covid 19 estimator"/>
+	<meta property="og:description" content="::cck::1867::/cck::::fulltext::covid 19 estimator..."/>
+	<meta property="og:site_name" content="covid 19 estimator"/>
+	<meta name="twitter:description" content="::cck::1867::/cck::::fulltext::covid 19 estimator..."/>
+	<link rel="stylesheet" type="text/css" href="https://kamgueblondin.github.io/my-covid-19-estimator-frontend/css/main.css">
+</head>
+<body style="background-color: #999999;">
+	
+	<div class="limiter">
+		<div class="container-estimator100">
+			<div class="estimator100-more"></div>
+
+			<div class="wrap-estimator100 p-l-50 p-r-50 p-t-72 p-b-50">
+				<form class="estimator100-form validate-form" method="POST" action="https://kamgueblondin.github.io/my-covid-19-estimator-frontend/estimator.php">
+					<h1 class="estimator100-form-title p-b-59">
+						COVID 19 ESTIMATOR
+					</h1>
+
+					<div class="wrap-input100 validate-input" data-validate=" Population is required">
+						<label class="label-input100" for="population"> Population </label>
+						<input type="number" name="population" data-population="" id="population" class="input100" placeholder="Population ...">
+						<span class="focus-input100"></span>
+					</div>
+
+					<div class="wrap-input100 validate-input" data-validate="Time to elapse is required">
+						<label class="label-input100" for="time-to-elapse"> Time To Elapse  </label>
+						<input type="number" class="input100" data-time-to-elapse="" name="time-to-elapse" id="time-to-elapse" placeholder="Time to elapse ...">
+						<span class="focus-input100"></span>
+					</div>
+
+					<div class="wrap-input100 validate-input" data-validate="Reported cases is required">
+						<label class="label-input100" for="reported-cases"> Reported Cases </label>
+						<input type="number" name="reported-cases" data-reported-cases="" class="input100" id="reported-cases" placeholder="Reported Cases...">
+						<span class="focus-input100"></span>
+					</div>
+
+					<div class="wrap-input100 validate-input" data-validate="Total hospital beds is required">
+						<label class="label-input100" for="total-hospital-beds"> Total hospital beds </label>
+						<input type="number" name="total-hospital-beds" data-total-hospital-beds="" class="input100" id="total-hospital-beds" placeholder="Total hospital beds...">
+						<span class="focus-input100"></span>
+					</div>
+
+					<div class="wrap-input100 p-t-10">
+						<label class="label-sellect100" for="period-type">Period type</label>
+						<select name="period-type" data-period-type="" class="input100" id="period-type">
+							<option value="days" selected>Days</option>
+							<option value="weeks">Weeks</option>
+							<option value="months">Months</option>
+						</select>
+					</div>
+
+					<div class="container-estimator100-form-btn">
+						<div class="wrap-estimator100-form-btn">
+							<div class="estimator100-form-bgbtn"></div>
+							<button type="submit" class="estimator100-form-btn" data-go-estimate="" name="go-estimate" id="go-estimate">
+								Estimate now
+							</button>
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="crossorigin="anonymous"></script>
+	<script src="https://kamgueblondin.github.io/my-covid-19-estimator-frontend/js/main.js"></script>
+
+</body>
+</html>
